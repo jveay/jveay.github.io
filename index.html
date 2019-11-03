@@ -84,6 +84,13 @@
             </li>
         
             <li class="waves-block waves-effect">
+              <a href="/diary"  >
+                <i class="icon icon-lg icon-link"></i>
+                日签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
               <a href="https://github.com/jveay" target="_blank" >
                 <i class="icon icon-lg icon-github"></i>
                 Github
@@ -494,10 +501,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '死鬼跑去哪里了！';
+            document.title = '相逢的人会在相逢.';
             clearTimeout(titleTime);
         } else {
-            document.title = '(つェ⊂)咦!又肥来了!';
+            document.title = '迷失的人迷失了.';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);
